@@ -1,0 +1,33 @@
+{
+  "name": "dotenv-multi-environment",
+  "version": "1.0.0",
+  "description": "Example shows how to load dotenv file in different environment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "NODE_ENV=dev node main.js",
+    "local": "cross-env NODE_ENV=local node main.js",
+    "prod": "cross-env NODE_ENV=production node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjoydip/dotenv-multi-environment.git"
+  },
+  "keywords": [
+    "dotenv",
+    "multi-environment",
+    ".env",
+    ".env.production"
+  ],
+  "author": "rjoydip <joydipand@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjoydip/dotenv-multi-environment/issues"
+  },
+  "homepage": "https://github.com/rjoydip/dotenv-multi-environment#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1"
+  }
+}
