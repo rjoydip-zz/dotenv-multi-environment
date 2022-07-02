@@ -11,5 +11,5 @@ export default defineConfig({
     format: ['cjs', 'esm', 'iife'],
     external: ['require', 'fs', 'path'],
     tsconfig: './tsconfig.node.json',
-    onSuccess: "node dist/main.cjs"
+    onSuccess: "node ./dist/main.cjs"
 })
